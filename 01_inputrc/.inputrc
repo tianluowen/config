@@ -1,0 +1,9 @@
+# 自动忽略大小写
+set completion-ignore-case on
+
+# 定义下箭头为根据已键入内容向后搜索命令历史
+"\e[A": history-search-backward
+"\C-P": history-search-backward 
+# 定义上箭头为根据已键入内容前后搜索命令历史
+"\e[B": history-search-forward
+"\C-N": history-search-forward 
